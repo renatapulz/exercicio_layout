@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #00c4f7;
+    margin: 0 auto;
+    padding: 0;
+    
+}
+
+#todo{
+    width: 100%;
+}
+
+header{
+    width: 750px;
+    background-color: #00c4f7;
+    margin: 0 auto;
+}
+
+.logotitle{
+    width: 300px;
+    height: 130px;
+}
+
+nav{
+    background-image: linear-gradient(to top, black 40%, gray 60%);
+    display: inline-flexbox;
+    height: 30px;
+    text-align: center;
+
+}
+
+nav ul li{
+    color: white;
+    list-style-type: none;
+    position: relative;
+    float: left;
+    margin-left: 20px;
+    font-size: 20px;
+    width: 120px;
+      
+}
+
+nav ul li a{
+text-decoration: none;
+    color: white;
+}
+
+
+.divisoriapeq{
+    width: 5px;
+    margin-inline: 2px;
+    float: left;
+
+}
+
+.divisoriapeq img{
+    height: 10px;
+
+}
+
+section.cima{
+    margin: 0 auto;
+    padding: 0 0 10px 0;
+    width: 750px;
+    height: 180px;
+    background: #E6E6E6 url(img/img_edito.gif) right 10px no-repeat;
+}
+
+.listrabranca{
+    height: 12px;
+    background-color: white;
+}
+
+.textosectioncima{
+    padding: 20px 220px 20px 20px;
+    font-size: 15px;
+}
+
+.botaoverde{
+    width: 150px;
+    height: 25px;
+    display: block;
+    margin:0 auto;
+    background: url("img/large_button.gif");
+    text-align: center;
+    line-height: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.textosectioncima p{
+    margin-left: 5px;
+}
+
+span.drop1 { 
+    font-size: 130%;
+    color: rgb(25, 199, 25);
+    } 
+
+section img{
+    height: 140px;
+    float: right;
+}
+
+h1{
+    font-family: sans-serif;
+    padding: 5px;
+    color: rgb(25, 199, 25);
+}
+section.divisoria{
+    width: 750px;
+    height: 12px;
+    margin: 0 auto;
+    background-image: linear-gradient(to top, black 40%, gray 60%);
+}
+
+article{
+    width: 750px;
+    height: 240px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: white;
+
+}
+
+article .div1, article .div2, article .div3{
+    width: 220px;
+    height: 200px;
+    float: left;
+    background-color: white;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 20px 10px 20px 10px;
+}
+
+article .divisoriagrande img{
+    width: 2px;
+    height: 180px;
+    float: left;
+    margin: 20px 0 50px 0;
+    
+} 
+
+article h1{
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #00c4f7;
+}
+
+article p{
+    margin-left: 5px;
+}
+
+.textgreen{
+    color: rgb(25, 199, 25);
+}
+
+
+span.drop2 { 
+    font-size: 130%;
+    color: #00c4f7;
+    } 
+
+article .div2 .textgreen{
+    float: left;
+    margin-left: 5px;
+}
+
+.pdiv2{
+    float: right;
+    margin-right: 25px;
+    font-weight: bold;
+}
+
+article .div2 p{
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    
+}

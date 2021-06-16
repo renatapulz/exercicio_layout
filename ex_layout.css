@@ -21,8 +21,8 @@ header{
 }
 
 .logotitle{
-    width: 300px;
-    height: 130px;
+    width: 280px;
+    height: 100px;
 }
 
 nav{
@@ -120,7 +120,7 @@ section.divisoria{
 
 article{
     width: 750px;
-    height: 240px;
+    height: 270px;
     margin: 0 auto;
     padding: 0;
     background-color: white;
@@ -129,7 +129,7 @@ article{
 
 article .div1, article .div2, article .div3{
     width: 220px;
-    height: 200px;
+    height: 250px;
     float: left;
     background-color: white;
     font-size: 13px;
@@ -178,7 +178,39 @@ article .div2 .textgreen{
 
 article .div2 p{
     float: left;
-    margin-left: 5px;
-    margin-top: 5px;
+    margin: 5px 5px 5px 5px;
     
 }
+
+.botaoazul{
+    width: 75px;
+    height: 25px;
+    display: inline-block;
+    margin:0 auto;
+    background: url("img/little_button.gif");
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    line-height: 25px;
+}
+
+.div3 ul{
+    margin-left: 21px;
+    margin-top: 5px;
+    color: rgb(25, 199, 25);
+    line-height: 20px;
+}
+
+.botaoazul2{
+    width: 75px;
+    height: 25px;
+    display: inline-block;
+    margin:0 auto;
+    background: url("img/little_button.gif");
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-left: 5px;
+    margin-top: 20px;
+    line-height: 25px;

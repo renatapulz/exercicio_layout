@@ -139,7 +139,7 @@ article .div1, article .div2, article .div3{
 
 article .divisoriagrande img{
     width: 2px;
-    height: 180px;
+    height: 210px;
     float: left;
     margin: 20px 0 50px 0;
     
@@ -214,3 +214,17 @@ article .div2 p{
     margin-left: 5px;
     margin-top: 20px;
     line-height: 25px;
+
+ }  
+
+ footer{
+     width: 750px;
+     margin: 20px auto;
+     padding: 0;
+ }
+
+ footer p{
+    height: 50px;
+    text-align: center;
+    color: white;
+ }
